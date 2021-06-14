@@ -750,34 +750,4 @@ a, a:visited {
       content: "Hentai on RenZed's";
       color: #C0C0C0
   }
- 
-.link[data-v-4f7beb35]:nth-child(1):before {
-  font-family: "FontAwesome";
-  font-size: 15px;
-  content: "\f007";
-}
-.link[data-v-4f7beb35]:nth-child(2):before {
-  font-family: "FontAwesome";
-  font-size: 15px;
-  content: "\f108";
-}
-.link[data-v-4f7beb35]:nth-child(3):before {
-  font-family: "FontAwesome";
-  font-size: 15px;
-  content: "\f02d";
-}
-.link[data-v-4f7beb35]:nth-child(4):before {
-  font-family: "FontAwesome";
-  font-size: 15px;
-  content: "\f004";
-}
-.link[data-v-4f7beb35]:nth-child(5):before {
-  font-family: "FontAwesome";
-  font-size: 15px;
-  content: "\f201";
-}
-.link[data-v-4f7beb35]:nth-child(6):before {
-  font-family: "FontAwesome";
-  font-size: 15px;
-  content: "\f075";
-}
+

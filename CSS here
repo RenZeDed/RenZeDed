@@ -751,3 +751,35 @@ a, a:visited {
       color: #C0C0C0
   }
  
+ .link[data-v-4f7beb35]:nth-child(1):before {
+  font-family: "Satisfy";
+  font-size: 15px;
+  content: "\f263";
+}
+.link[data-v-4f7beb35]:nth-child(2):before {
+  font-family: "Satosfy";
+  font-size: 15px;
+  content: "\f108";
+}
+.link[data-v-4f7beb35]:nth-child(3):before {
+  font-family: "Satisfy";
+  font-size: 15px;
+  content: "\f02d";
+}
+.link[data-v-4f7beb35]:nth-child(4):before {
+  font-family: "Satisfy";
+  font-size: 15px;
+  content: "\f004";
+}
+.link[data-v-4f7beb35]:nth-child(5):before {
+  font-family: "Satisfy";
+  font-size: 15px;
+  content: "\f0ae";
+}
+.link[data-v-4f7beb35]:nth-child(6):before {
+  font-family: "Satisfy";
+  font-size: 15px;
+  content: "\f0c0";
+}
+
+

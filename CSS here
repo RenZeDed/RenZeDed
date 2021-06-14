@@ -729,6 +729,10 @@ a, a:visited {
   
 }
 
-.banner-2QYc2d .popoutBanner-19WKGg {
-  modifier: example;
-}
+.about[data-v-5c30286e] {
+      transition: transform 0.69s ease-in-out;
+  }
+  .about:hover {
+      transform: scale(1.015);
+  }
+  

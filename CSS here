@@ -1,18 +1,9 @@
-/*╔══════════════════════════════════════════════════╗
 
-                     Makes Bio Longer
-                     
-  ╚══════════════════════════════════════════════════╝*/
 .about > .content-wrap {
   transform: scale(1) !important;
   max-height: none !important;
 }
 
-/*╔══════════════════════════════════════════════════╗
-                 
-                 Adds Background Image
-                 
-  ╚══════════════════════════════════════════════════╝*/
 body {
     background-image: url("https://files.catbox.moe/iptuay.jpg");
     background-position: 50% 50%;
@@ -21,11 +12,6 @@ body {
     background-attachment: fixed;
 }
 
-/*╔══════════════════════════════════════════════════╗
-                     
-                     Removes Banner 
-                     
-  ╚══════════════════════════════════════════════════╝*/
 .banner {
   visibility: hidden;
 }
@@ -34,3 +20,34 @@ body {
   justify-content: center;
 }
 
+.logo img[data-v-4fbac4e1] {
+    content: url(https://files.catbox.moe/b3ztub.gif);
+}
+.logo:hover {
+    transition: transform 0.69s ease-in-out;
+    transform: scale(1.6);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.search[data-v-4fbac4e1]:hover svg {
+    background: url(https://files.catbox.moe/y734v8.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #0010FF00;
+    transform: scale(10) translate(0px, 13px) !important;
+}
+
+{
+  background: rgb(0, 0, 0) none repeat scroll 0% 0% !important;
+  border-radius: 0 0 30px 30px;
+  left: calc((100% - 80%) / 2);
+  width: 80%;
+  box-shadow: var(--nutella-bs);
+  transition: background 0.8s ease 0s, top 0.5s ease 0s !important;
+  backdrop-filter: blur(4px);
+  height: 60px;
+  
+}
+
+  

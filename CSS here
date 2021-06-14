@@ -20,7 +20,7 @@ body {
 }
 
 .logo img[data-v-4fbac4e1] {
-    content: url(https://files.catbox.moe/b3ztub.gif);
+    content: url(https://files.catbox.moe/2so5og.gif);
 }
 .logo:hover {
     transition: transform 0.69s ease-in-out;

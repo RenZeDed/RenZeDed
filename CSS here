@@ -727,5 +727,8 @@ a, a:visited {
   background: #C0C0C0;
   -webkit-border-radius: 1ex;
   
-  
+}
+
+.banner-2QYc2d .popoutBanner-19WKGg {
+  modifier: example;
 }

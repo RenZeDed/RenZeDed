@@ -1,0 +1,36 @@
+/*╔══════════════════════════════════════════════════╗
+
+                     Makes Bio Longer
+                     
+  ╚══════════════════════════════════════════════════╝*/
+.about > .content-wrap {
+  transform: scale(1) !important;
+  max-height: none !important;
+}
+
+/*╔══════════════════════════════════════════════════╗
+                 
+                 Adds Background Image
+                 
+  ╚══════════════════════════════════════════════════╝*/
+body {
+    background-image: url("https://files.catbox.moe/iptuay.jpg");
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*╔══════════════════════════════════════════════════╗
+                     
+                     Removes Banner 
+                     
+  ╚══════════════════════════════════════════════════╝*/
+.banner {
+  visibility: hidden;
+}
+.banner > .container {
+  visibility: visible;
+  justify-content: center;
+}
+

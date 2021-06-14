@@ -748,5 +748,32 @@ a, a:visited {
       transition: transform .7s ease-in-out;
       visibility: visible;
       content: "Hentai on RenZed's";
-      color: #ffffff
+      color: #C0C0C0
   }
+  
+ body {
+    font-family: cursive;
+}
+.link[data-v-4fbac4e1] {
+    font-family: "Satisfy";
+    font-size: 2rem;
+}
+.nav .link[data-v-5445dac8] {
+    font-family: cursive;
+}
+
+.section-header[data-v-514856af] {
+     font-size: 2rem;
+     font-family: "Satisfy";
+}
+
+.section-header[data-v-3f86aedd] {
+     font-size: 2rem;
+     font-family: "Satisfy";
+}
+
+.load-more[data-v-6f203cf2] {
+     font-size: 2rem;
+     font-family: "Satisfy";
+     border: 3px solid #000;
+}

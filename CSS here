@@ -598,3 +598,44 @@ body {
     display: none;
     visibility: hidden;
 }
+
+body {
+    font-family: cursive;
+}
+.link[data-v-4fbac4e1] {
+    font-family: "Satisfy";
+    font-size: 2rem;
+}
+.nav .link[data-v-5445dac8] {
+    font-family: cursive;
+}
+
+.section-header[data-v-514856af] {
+     font-size: 2rem;
+     font-family: "Satisfy";
+}
+
+.section-header[data-v-3f86aedd] {
+     font-size: 2rem;
+     font-family: "Satisfy";
+}
+
+.load-more[data-v-6f203cf2] {
+     font-size: 2rem;
+     font-family: "Satisfy";
+     border: 3px solid #C0C0C0;
+}
+
+.favourite[data-v-0317d914] {
+    border: 3px solid #000;
+}
+
+.markdown .markdown-spoiler::before {
+     color: #C0C0C0;
+     font-weight: 500;
+     border-radius: 20px;
+     border: 1px solid  #000;
+     content: "Click if you are brave";
+     font-size: 1.3rem;
+     padding: 4px 7px;
+}

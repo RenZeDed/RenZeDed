@@ -387,3 +387,52 @@ h1.name {
     transform: scale(1.15);
     color: #C0C0C0
 }
+.name[data-v-4f7beb35] {
+    font-size: 5rem;
+    padding: 10px 15px 11px 15px;
+    color: #fff;
+    font-family: "Satisfy";
+    display: flex;
+    align-items: center;
+}
+
+@font-face {
+  font-family: 'Satisfy';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/satisfy/v11/rP2Hp2yn6lkG50LoCZOIHQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+    font-family: cursive;
+}
+.link[data-v-4fbac4e1] {
+    font-family: "Satisfy";
+    font-size: 2rem;
+}
+.nav .link[data-v-5445dac8] {
+    font-family: cursive;
+}
+
+.section-header[data-v-514856af] {
+     font-size: 2rem;
+     font-family: "Satisfy";
+}
+
+.section-header[data-v-3f86aedd] {
+     font-size: 2rem;
+     font-family: "Satisfy";
+}
+
+.load-more[data-v-6f203cf2] {
+     font-size: 2rem;
+     font-family: "Satisfy";
+     border: 3px solid #000;
+}
+.overview .wrap, .overview .content-wrap {
+    border: 3px solid #000;
+
+}
+

@@ -195,3 +195,195 @@ h1.name {
     margin-top: 80px;
     margin-bottom: 10px
 }
+
+.nav-wrap {
+    background: rgb(var(--color-foreground)) !important;
+    width: 65% !important;
+    margin: 0 auto !important;
+    border-radius: 30px !important;
+}
+
+img.avatar,
+h1.name {
+    margin: auto;
+}
+
+.banner-content .name {
+  background: #222 -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
+  background-image: -webkit-linear-gradient(-40deg, transparent 0%, transparent 40%, #fff 50%, transparent 60%, transparent 100%);
+  -webkit-background-size: 200px;
+  color: rgba(255, 255, 255, .6);
+  -webkit-background-clip: text;
+  -webkit-animation-name: shine;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+  text-shadow: 0 0px 0px rgba(255, 255, 255, 0.5);
+}
+
+.content.container {
+  background: rgba(0, 0, 0, 0.5);
+  max-width: 80%;
+  padding: 30px 30px;
+  border-radius: 0 0 15px 15px;
+  box-shadow: var(--nutella-bs);
+}
+
+.nav[data-v-4f7beb35] {
+  padding-left: 100px;
+}
+
+.header-wrap>.nav-wrap {
+  max-width: 80%;
+  margin: 0 auto;
+  border-radius: 15px 15px 0 0;
+  box-shadow: var(--nutella-ns);
+  position: relative;
+}
+
+.nav .link:nth-child(7), .nav .link:nth-child(8) {
+  width: 0;
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
+}
+
+ .header-wrap > .nav-wrap {
+    max-width: 80%;
+    margin: 0 auto;
+    border-radius: 30px 30px 0 0;
+    box-shadow: var(--bays-ns);
+    position: relative;
+  }
+  .nav > .link {
+    position: relative;
+  }
+  .nav > .link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 2px;
+    width: 0;
+    background: rgb(var(--color-blue));
+    transition: all 0.3s ease-in-out;
+  }
+  .nav > .router-link-active::after {
+    left: 0;
+    width: 100%;
+    background: rgb(var(--color-blue-dim));
+  }
+  .nav > .link:hover::after {
+    left: 0;
+    width: 100%;
+    background: rgb(var(--color-blue));
+  }
+  .content.container {
+    background: rgba(var(--color-foreground-grey),0.3);
+    max-width: 80%;
+    padding: 30px;
+    border-radius: 0 0 30px 30px;
+    box-shadow: var(--bays-bs);
+  }
+
+.content > .overview {
+    margin-top: 0;
+  }
+  .stats-wrap > .content-wrap, .desktop > .content-wrap, .activity-entry > .wrap, .favourites-wrap > .favourite, .scroller > .load-more, .user-page-unscoped .markdown-editor, .el-textarea__inner, .input {
+    border-radius: 20px !important;
+    box-shadow: var(--bays-bs);
+    transition: all 0.69s ease-in-out;
+  }
+  .history-day:hover {
+    transform: scale(1.2);
+  }
+  .history-day[data-v-514856af] {
+      border-radius: 20px;
+  }
+  .activity-entry > .wrap {
+    transition: all 0.69s ease-in-out;
+    max-height: none;
+  }
+  .activity-entry:hover .wrap {
+    transform: scale(1.02); 
+    max-height: none;
+  }
+  .wrap > .text {
+    padding-top: 15px;
+  }
+  .text > .activity-markdown > .markdown {
+    max-height: none;
+  }
+  .header > .avatar, .list > .cover {
+    opacity: var(--bays-vo);
+    transition: all 0.69s ease-in-out;
+  }
+  .wrap:hover .cover {
+    opacity: 1;
+  }
+  .wrap:hover .header > .avatar, .users > .user:hover, .reply:hover .header > .avatar {
+    opacity: 1;
+    border-color: rgb(var(--color-blue));
+  }
+  .header > .name {
+    transition: all 0.69s ease-in-out;
+  }
+  .wrap:hover .header > .name {
+    opacity: 1;
+  }
+  .activity-entry, .input, svg:not(:root).svg-inline--fa {
+  transition: all 0.69s ease-in-out;
+  }
+  .list .title, .input .el-textarea__inner {
+    opacity: var(--bays-vo);
+    transition: all 0.69s ease-in-out;
+  }
+  .activity-manga_list:hover, .activity-anime_list:hover {
+    transform: scale(1.01);  
+  }
+  .activity-manga_list:hover .title, .activity-anime_list:hover .title {
+    opacity: 1;
+  }
+  .input:hover {
+    transform: scale(1.025);
+  }
+  .input:hover .el-textarea__inner {
+    opacity: 1;
+  }
+  .scroller > .load-more {
+    margin-top: 0;
+  }
+  .scroller > .load-more:hover {
+    color: rgb(var(--color-blue));
+    box-shadow: var(--bays-bs);
+    transform: scale(1.025);
+  }
+  .activity-replies > .reply {
+    border-radius: 20px;
+  }
+  .reply:hover .header > .name {
+    opacity: 1;
+  }
+  
+   .overview .favourites > .favourites-wrap {
+    overflow: visible;
+  }
+
+.favourites .favourite:hover {
+    transition: transform 0.69s ease-in-out;
+    transform: scale(1.15);
+    z-index: 20;
+  }
+  .activity-history[data-v-514856af] {
+      transition: transform 0.69s ease-in-out;
+  }
+  .activity-history:hover {
+      transform: scale(1.05);
+  }
+ 
+ .link[data-v-4fbac4e1] {
+    transition: transform 0.69s ease-in-out;
+}
+.link[data-v-4fbac4e1]:hover {
+    transform: scale(1.2);
+    color: #C0C0C0
+}

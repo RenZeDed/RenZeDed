@@ -736,3 +736,17 @@ a, a:visited {
       transform: scale(1.015);
   }
   
+  .activity-markdown[data-v-1bf2cf4e]:after {
+      content: "Man's of Culture               ";
+      white-space: pre-wrap;
+      font-style: italic;
+      justify-content: flex-end;
+      display: flex;
+  }
+  
+   .section-header[data-v-09492909]::before {
+      transition: transform .7s ease-in-out;
+      visibility: visible;
+      content: "Hentai on RenZed's";
+      color: #ffffff
+  }

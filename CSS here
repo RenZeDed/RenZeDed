@@ -50,4 +50,49 @@ body {
   
 }
 
+.quick-search.visible {
+  left: auto;
+}
+
+#nav .link {
+  transition: transform 0.69s ease-in-out;
+}
+
+#nav .link:hover {
+  transform: scale(1.2);
+  color: #C0C0C0
+}
+
+.nav .wrap {
+  display: grid;
+  grid-template-columns: 70px auto auto 70px;
+}
+
+.nav .wrap .links {
+  grid-column-start: 3;
+  margin-left: -25px;
+}
+
+.nav .wrap .search {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  padding: 10px;
+  background: rgb(16 16 16);
+  box-shadow: var(--nutella-bs);
+  border-radius: 35px;
+  width: 100%;
+  cursor: text;
+  font-family: "Overpass"
+}
+
+.nav .wrap .search:after {
+  content: "Search AniList";
+  margin-left: 10px;
+  color: #C0C0C0;
+}
+
+.nav .wrap .user {
+  grid-column-start: 4;
+  grid-row-start: 1;
+}
   

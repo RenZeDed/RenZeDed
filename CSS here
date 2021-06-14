@@ -627,14 +627,14 @@ body {
 }
 
 .favourite[data-v-0317d914] {
-    border: 3px solid #000;
+    border: 3px solid #C0C0C0;
 }
 
 .markdown .markdown-spoiler::before {
      color: #C0C0C0;
      font-weight: 500;
      border-radius: 20px;
-     border: 1px solid  #000;
+     border: 1px solid  #C0C0C0;
      content: "Click if you are brave";
      font-size: 1.3rem;
      padding: 4px 7px;

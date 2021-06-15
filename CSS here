@@ -202,7 +202,7 @@ a[class="avatar router-link-exact-active router-link-active"]:hover {
 .header-wrap .nav-wrap .link:nth-child(1):before {
   font-family: "FontAwesome";
   font-size: 15px;
-  content: "f007";
+  content: "f015";
 }
 
 .header-wrap .nav-wrap .link:nth-child(2):before {

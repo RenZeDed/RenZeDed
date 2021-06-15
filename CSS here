@@ -189,87 +189,11 @@ a[class="avatar router-link-exact-active router-link-active"]:hover {
   max-width: 188px;
 }
 
-/* NAVBAR ICONS */
-
-.header-wrap .nav-wrap .link {
-  font-size: 1.5rem;
-  border-bottom: 2px solid rgba(0, 0, 0, 0);
-  transition: 0.5s;
-  padding: 15px 0px 15px 0px;
-  margin: 0px 30px;
-}
-
-.header-wrap .nav-wrap .link:nth-child(1):before {
-  font-family: "FontAwesome";
-  font-size: 15px;
-  content: "f015";
-}
-
-.header-wrap .nav-wrap .link:nth-child(2):before {
-  font-family: "FontAwesome";
-  font-size: 15px;
-  content: "\f108";
-}
-
-.header-wrap .nav-wrap .link:nth-child(3):before {
-  font-family: "FontAwesome";
-  font-size: 15px;
-  content: "\f02d";
-}
-
-.header-wrap .nav-wrap .link:nth-child(4):before {
-  font-family: "FontAwesome";
-  font-size: 15px;
-  content: "\f004";
-}
-
-.header-wrap .nav-wrap .link:nth-child(5):before {
-  font-family: "FontAwesome";
-  font-size: 15px;
-  content: "\f080";
-}
-
-.header-wrap .nav-wrap .link:nth-child(6):before {
-  font-family: "FontAwesome";
-  font-size: 15px;
-  content: "\f0c0";
-}
-
-/* adds link active affect */
-
-.nav>.link {
-  position: relative;
-}
-
-.nav>.link::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  height: 2px;
-  width: 0;
-  background: rgb(var(--color-blue));
-  transition: all 0.3s ease-in-out;
-}
-
-.nav>.router-link-active::after {
-  left: 0;
-  width: 100%;
-  background: rgb(var(--color-blue-dim));
-}
-
-.nav>.link:hover::after {
-  left: 0;
-  width: 100%;
-  background: rgb(var(--color-blue));
-}
-
-
 /* Modifies load-more button */
 
 .load-more {
     border-radius: 30px !important;
-    font-family: 'Brush Script MT', cursive !important;
+    font-family: 'Satisfy', cursive !important;
     font-size: 3rem !important;
     margin: auto !important;
     max-width: 200px !important;

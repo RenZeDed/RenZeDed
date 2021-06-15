@@ -115,29 +115,19 @@ body {
 
 /* Re-aligns profile picture and name */
   
-.banner>.container {
-  max-width: 65%;
-  align-items: center;
+.banner-content {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    width: auto !important;
+    background-color: rgb(var(--color-foreground));
+    padding: 10px;
+    border-radius: 30px !important;
+    margin: auto;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-bottom: 10px
 }
 
-.header-wrap .banner {
-  height: 333px;
-}
-
-.header-wrap .nav-wrap {
-  background: rgb(0, 0, 0);
-}
-
-.banner .container .banner-content {
-  align-items: center;
-  margin-top: 25px;
-  position: relative;
-  width: 50%;
-}
-
-.banner .container[data-v-4f7beb35] {
-  align-items: center;
-}
 
 /* changes name size */
 

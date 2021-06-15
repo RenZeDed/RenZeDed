@@ -821,3 +821,34 @@ a, a:visited {
       content: "Hentai on RenZed's";
       color: #C0C0C0
   }
+  
+  /* Removes Dumb Genre Overview thingy */
+  
+  .desktop[data-v-aedb6876] {
+    height: 0;
+    visibility: hidden;
+}
+  
+/* changes color of left border */
+
+.activity-message .text {
+  border-left: solid 3px #000;
+}
+
+.activity-text .text {
+  border-left: solid 7px #C0C0C0;  
+
+}
+
+/* LIKE BUTTON SIZE */
+
+.actions .action {
+  font-size: 1.75rem;
+}
+
+.actions .count[data-v-1bf2cf4e] {
+  font-size: 1.75rem;
+}
+
+
+  

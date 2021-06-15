@@ -28,11 +28,11 @@ body {
 /* Changes Anilist Logo */
 
 .logo img[data-v-4fbac4e1] {
-    content: url(https://files.catbox.moe/2so5og.gif);
+    content: url(https://imgur.com/6pKok6a);
 }
 .logo:hover {
     transition: transform 0.69s ease-in-out;
-    transform: scale(1.6);
+    transform: scale(1.6) translate(0px, 13px) !important;
     border-radius: 20px;
     overflow: hidden;
 }

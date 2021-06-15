@@ -465,7 +465,7 @@ body {
      border: 3px solid #C0C0C0;
 }
 
-/* Border Around (almost) Everything *?/
+/* Border Around (almost) Everything */
 
 .overview .wrap, .overview .content-wrap {
     border: 3px solid #C0C0C0;
@@ -832,7 +832,7 @@ a, a:visited {
 /* changes color of left border */
 
 .activity-message .text {
-  border-left: solid 3px #000;
+  border-left: solid 3px #C0C0C0;
 }
 
 .activity-text .text {
@@ -843,11 +843,11 @@ a, a:visited {
 /* LIKE BUTTON SIZE */
 
 .actions .action {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
 }
 
 .actions .count[data-v-1bf2cf4e] {
-  font-size: 1.75rem;
+  font-size: 1.25rem;
 }
 
 

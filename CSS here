@@ -551,7 +551,7 @@ body {
   opacity: 1;
 }
 
-
+ /* Adds Hover to Stats Overview */
 
 .list-stats[data-v-815ccddc]{
       transition: transform 0.69s ease-in-out;
@@ -559,6 +559,8 @@ body {
   .list-stats:hover {
       transform: scale(1.05);
   }
+
+/* Changes Stats Overview */
 
 .favourite[data-v-5d0e8ada] {
     border-radius: 7px !important;
@@ -631,6 +633,8 @@ body {
     visibility: hidden;
 }
 
+ /* Changes the font for a couple things */
+
 body {
     font-family: cursive;
 }
@@ -658,9 +662,13 @@ body {
      border: 3px solid #C0C0C0;
 }
 
+/* Border around Favorites */
+
 .favourite[data-v-0317d914] {
     border: 3px solid #C0C0C0;
 }
+
+/* Changes the Spoilers */
 
 .markdown .markdown-spoiler::before {
      color: #C0C0C0;
@@ -671,6 +679,8 @@ body {
      font-size: 1.3rem;
      padding: 4px 7px;
 }
+
+/* Badge next to Big Username */
 
 .name[data-v-4f7beb35]::after {
     content: "The Hentai Man";
@@ -693,6 +703,8 @@ body {
     animation-timing-function: ease-in-out;
 }
 
+/* Badge next to People's names */
+
 .text > .header > .name::after, .reply > .header > .name::after {
      content: 'Nice Cock';
      position: relative;
@@ -711,6 +723,8 @@ body {
      animation-timing-function: ease-in-out;
 }
 
+ /* HOVER IN BIO SOCIALS */
+
 img[src="https://i.imgur.com/lVIy2Tw.png?1"]:hover, img[src="https://i.imgur.com/bi8Fdyk.gif"]:hover, img[src="https://i.imgur.com/lVIy2Tw.png?1"]:hover {
   transform: scale(1.2)
 }
@@ -719,21 +733,28 @@ img[src="https://i.imgur.com/lVIy2Tw.png?1"]:hover, img[src="https://i.imgur.com
   border-radius: 15px;
 }
 
+/*changes the bio video borders */
+
 .markdown video {
   border-radius: 15px;
 }
+
+/* changes size of section headers */
 
 .overview .section-header {
   font-size: 150%;
   color: #C0C0C0;
   filter: drop-shadow(0px 0px 1px black);
 }
+
+*/ FOOTER */
+
 .wrap > .footer {
   position: relative;
   background: rgb(0,0,0,0.5);
   border-radius: 30px 30px 0 0;
   left: calc((100% - 85%) / 2);
-  width: 65%;
+  width: 85%;
   box-shadow: var(--bays-bs);
 }
 .theme-selector > .dark {
@@ -746,9 +767,11 @@ a, a:visited {
     color: rgb(var(--color-text));
 }
 
+/* SCROLLBAR */
+
 ::-webkit-scrollbar {
   width: 4px;
-  background: #000;
+  background: #C0C0C0;
 }
 
 ::-webkit-scrollbar-corner {
@@ -761,12 +784,16 @@ a, a:visited {
   
 }
 
+/* About section hover */
+
 .about[data-v-5c30286e] {
       transition: transform 0.69s ease-in-out;
   }
   .about:hover {
       transform: scale(1.015);
   }
+  
+  /* Adds text at bottom of activity boxes */
   
   .activity-markdown[data-v-1bf2cf4e]:after {
       content: "Man's of Culture               ";
@@ -776,49 +803,11 @@ a, a:visited {
       display: flex;
   }
   
+  /* Adds text before 'activity' */
+  
    .section-header[data-v-09492909]::before {
       transition: transform .7s ease-in-out;
       visibility: visible;
       content: "Hentai on RenZed's";
       color: #C0C0C0
   }
-
-@keyframes popUp {
-   0% {
-       transform: scale(0);
-   }
-   10% {
-       transform: scale(0.1);
-   }
-   20% {
-       transform: scale(0.2);
-   }
-   30% {
-       transform: scale(0.3);
-   }
-   40% {
-       transform: scale(0.4);
-   }
-   50% {
-       transform: scale(0.5);
-   }
-   60% {
-       transform: scale(0.6);
-   }
-   70% {
-       transform: scale(0.7);
-   }
-   80% {
-       transform: scale(0.8);
-   }
-   90% {
-       transform: scale(0.9);
-   }
-   100% {
-        transform: scale(1);
-   }
-}
-.animate__popUp {
-    -webkit-animation-name: popUp;
-    animation-name: popUp
-

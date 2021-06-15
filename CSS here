@@ -28,7 +28,7 @@ body {
 /* Changes Anilist Logo */
 
 .logo img[data-v-4fbac4e1] {
-    content: url(blob:https://imgur.com/14093ed2-65aa-4e02-a190-6db278b4f665);
+    content: url(https://i.imgur.com/JqJgSvj.png);
 }
 .logo:hover {
     transition: transform 0.69s ease;

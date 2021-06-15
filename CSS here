@@ -24,8 +24,8 @@ body {
 }
 .logo:hover {
     transition: transform 0.69s ease-in-out;
-    transform: scale(2);
-    border-radius: 100px;
+    transform: scale(1.6);
+    border-radius: 20px;
     overflow: hidden;
 }
 

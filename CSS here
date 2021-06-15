@@ -581,26 +581,25 @@ body {
     grid-template-columns: auto auto;
     padding: 20px 40px;
     text-align: left;
-    font-family: cursive;
+    font-family: "Satisfy";
 
 }
 .stat[data-v-815ccddc]:nth-child(1) {
     grid-row-start: span 2;
-    font-family: cursive;
+    font-family: "Satisfy";
 }
 .stat:nth-child(1) .value[data-v-815ccddc] {
     font-size: 5.5rem;
-    font-family: cursive;
+    font-family: "Satisfy";
 }
 .stat .value[data-v-815ccddc] {
     font-size: 2rem;
-    font-family: cursive;
+    font-family: "Satisfy";
     padding-bottom: 0px;
 }
 .stat .label[data-v-815ccddc] {
     font-size: 1.2rem;
-    font-family: cursive;
-
+    font-family: "Satisfy";
 }
 .list-stats[data-v-815ccddc]:nth-child(1) .stat[data-v-815ccddc]:nth-child(1) .label:before {
     content: '';

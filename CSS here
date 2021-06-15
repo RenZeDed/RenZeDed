@@ -1,7 +1,11 @@
+/* Makes Bio Longer */
+
 .about > .content-wrap {
   transform: scale(1) !important;
   max-height: none !important;
 }
+
+/* Adds Background Image */
 
 body {
     background-image: url("https://files.catbox.moe/iptuay.jpg");
@@ -11,6 +15,8 @@ body {
     background-attachment: fixed;
 }
 
+/* Removes Banner */
+
 .banner {
   visibility: hidden;
 }
@@ -18,6 +24,8 @@ body {
   visibility: visible;
   justify-content: center;
 }
+
+/* Changes Anilist Logo */
 
 .logo img[data-v-4fbac4e1] {
     content: url(https://files.catbox.moe/2so5og.gif);
@@ -29,6 +37,8 @@ body {
     overflow: hidden;
 }
 
+/* Changes Search button */
+
 .search[data-v-4fbac4e1]:hover svg {
     background: url(https://files.catbox.moe/y734v8.gif);
     background-repeat: no-repeat;
@@ -37,7 +47,9 @@ body {
     transform: scale(10) translate(0px, 13px) !important;
 }
 
-{
+/* changes the top navbar */
+
+#nav {
   background: rgb(0, 0, 0) none repeat scroll 0% 0% !important;
   border-radius: 0 0 30px 30px;
   left: calc((100% - 80%) / 2);
@@ -49,9 +61,13 @@ body {
   
 }
 
+/* search section fix(only use with the code above) */
+
 .quick-search.visible {
   left: auto;
 }
+
+/* nav buttons hover */
 
 #nav .link {
   transition: transform 0.69s ease-in-out;
@@ -61,6 +77,8 @@ body {
   transform: scale(1.2);
   color: #C0C0C0
 }
+
+/* add search anilist thing */
 
 .nav .wrap {
   display: grid;
@@ -94,6 +112,8 @@ body {
   grid-column-start: 4;
   grid-row-start: 1;
 }
+
+/* Re-aligns profile picture and name */
   
 .banner>.container {
   max-width: 65%;
@@ -119,6 +139,8 @@ body {
   align-items: center;
 }
 
+/* changes name size */
+
 .banner-content .name {
   font-size: 3.75rem;
   padding: 65px 50px 0px 0px;
@@ -126,6 +148,8 @@ body {
   align-items: center;
   filter: drop-shadow(0px 0px 3px black);
 }
+
+/* Re-aligns more stuff... Part of shorter navbar*/
 
 .content.container {
     max-width: 65%;
@@ -139,6 +163,8 @@ body {
     margin-left: 3%;
 }
 
+/** Main avatar. */
+
 .avatar {
     border-radius: 100%;
     transition: transform 2s;
@@ -149,6 +175,8 @@ body {
     transform-style: preserve-3d;
     transform: rotateY(180deg);
 }
+
+/* avatar */
 
 a[class="avatar"],
 a[class="avatar router-link-exact-active router-link-active"] {
@@ -162,6 +190,8 @@ a[class="avatar router-link-exact-active router-link-active"]:hover {
     transform-style: preserve-3d;
 }
 
+/* Modifies load-more button */
+
 .load-more {
     border-radius: 30px !important;
     font-family: 'Brush Script MT', cursive !important;
@@ -170,30 +200,7 @@ a[class="avatar router-link-exact-active router-link-active"]:hover {
     max-width: 200px !important;
 }
 
-.nav-wrap {
-    background: rgb(var(--color-foreground)) !important;
-    width: 65% !important;
-    margin: 0 auto !important;
-    border-radius: 30px !important;
-}
-
-img.avatar,
-h1.name {
-    margin: auto;
-}
-
-.banner-content {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-    transition: 0.3s;
-    width: auto !important;
-    background-color: rgb(var(--color-foreground));
-    padding: 10px;
-    border-radius: 30px !important;
-    margin: auto;
-    flex-direction: row;
-    margin-top: 80px;
-    margin-bottom: 10px
-}
+/* Changes "Overview/Anime List/Manga List..." nav section. - shorter navbar*/
 
 .nav-wrap {
     background: rgb(var(--color-foreground)) !important;
@@ -206,6 +213,8 @@ img.avatar,
 h1.name {
     margin: auto;
 }
+
+/* shine effect (thanks to cakes) */
 
 .banner-content .name {
   background: #222 -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
@@ -218,6 +227,10 @@ h1.name {
   -webkit-animation-iteration-count: infinite;
   text-shadow: 0 0px 0px rgba(255, 255, 255, 0.5);
 }
+
+/*╔═══════════════╗
+     CONTAINER + 2nd NAV
+  ╚═══════════════╝*/
 
 .content.container {
   background: rgba(0, 0, 0, 0.5);
@@ -239,12 +252,18 @@ h1.name {
   position: relative;
 }
 
+/* changes 2nd nav */
+
+/* hides reviews + submissions */
+
 .nav .link:nth-child(7), .nav .link:nth-child(8) {
   width: 0;
   margin: 0;
   padding: 0;
   visibility: hidden;
 }
+
+/* Transparent Container around everything */
 
  .header-wrap > .nav-wrap {
     max-width: 65%;
@@ -283,6 +302,8 @@ h1.name {
     border-radius: 0 0 30px 30px;
     box-shadow: var(--bays-bs);
   }
+
+ /* Changes stuff inside container(hover and stuffs */
 
 .content > .overview {
     margin-top: 0;
@@ -363,9 +384,13 @@ h1.name {
     opacity: 1;
   }
   
+  /* Hover for some stuffs */
+  
    .overview .favourites > .favourites-wrap {
     overflow: visible;
   }
+
+ /* Favorites section hover */
 
 .favourites .favourite:hover {
     transition: transform 0.69s ease-in-out;
@@ -378,6 +403,8 @@ h1.name {
   .activity-history:hover {
       transform: scale(1.15);
   }
+  
+   /* Navbar Buttons Hover */
  
  .link[data-v-4fbac4e1] {
     transition: transform 0.69s ease-in-out;

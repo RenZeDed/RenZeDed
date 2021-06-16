@@ -733,7 +733,7 @@ body {
 
  /* HOVER IN BIO SOCIALS */
 
-img[src="https://i.imgur.com/bi8Fdyk.gif"]:hover, img[src="https://i.imgur.com/lVIy2Tw.png?1"]:hover, img[src="https://i.imgur.com/iQmKdJi.png?2"]:hover {
+img[src="https://i.imgur.com/bi8Fdyk.gif"]:hover, img[src="https://i.imgur.com/lVIy2Tw.png?1"]:hover, img[src="https://i.imgur.com/iQmKdJi.png?2"]:hover, img[src="https://i.imgur.com/yRhAmZt.png"]: hover {
   transform: scale(1.2)
 }
 

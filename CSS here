@@ -733,7 +733,7 @@ body {
 
  /* HOVER IN BIO SOCIALS */
 
-img[src="https://i.imgur.com/lVIy2Tw.png?1"]:hover, img[src="https://i.imgur.com/bi8Fdyk.gif"]:hover, img[src="https://i.imgur.com/lVIy2Tw.png?1"]:hover {
+img[src="https://cdn.discordapp.com/attachments/650453575759036427/833069313001783366/1500369803_ezgif.com-optimize.gif"]:hover, img[src="https://i.imgur.com/bi8Fdyk.gif"]:hover, img[src="https://i.imgur.com/lVIy2Tw.png?1"]:hover {
   transform: scale(1.2)
 }
 

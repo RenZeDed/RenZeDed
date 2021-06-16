@@ -849,5 +849,12 @@ a, a:visited {
   font-size: 1.25rem;
 }
 
+/* Changes Peoples Usernames Font in activities */
+
+.name[data-v-1bf2cf4e] {
+    font-family: "Satisfy";
+    font-weight: bold;
+    font-size: 1.6rem;
+}
 
   

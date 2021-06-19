@@ -608,7 +608,7 @@ h1.name {
  /* Changes the font for a couple things */
 
 body {
-    font-family: "Satisfy";
+    font-family: Cursive;
 }
 .link[data-v-4fbac4e1] {
     font-family: "Satisfy";

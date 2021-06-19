@@ -610,7 +610,7 @@ h1.name {
 body {
     font-family: "Satisfy";
     font-weight: bold;
-    font-size: 4rem;
+    font-size: 1.6rem;
     
 }   
     
@@ -788,13 +788,6 @@ a, a:visited {
       content: "Hentai on RenZed's";
       color: #C0C0C0
   }
-  
-  /* Removes Dumb Genre Overview thingy */
-  
-  .desktop[data-v-aedb6876] {
-    height: 0;
-    visibility: hidden;
-}
   
 /* changes color of left border */
 

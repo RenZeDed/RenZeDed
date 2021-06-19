@@ -608,9 +608,9 @@ h1.name {
  /* Changes the font for a couple things */
 
 body {
-    font-family: "Satisfy";
+    font-family: cursive;
     font-weight: bold;
-    font-size: 1.6rem;    
+    font-size: 1.2rem;    
 }   
     
 .link[data-v-4fbac4e1] {
@@ -784,7 +784,6 @@ a, a:visited {
    .section-header[data-v-09492909]::before {
       transition: transform .7s ease-in-out;
       visibility: visible;
-      font-family: "Satisfy";
       content: "Hentai on RenZed's";
       color: #C0C0C0
   }

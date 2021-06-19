@@ -609,7 +609,11 @@ h1.name {
 
 body {
     font-family: "Satisfy";
-}
+    font-weight: bold;
+    font-size: 2rem;
+    
+}   
+    
 .link[data-v-4fbac4e1] {
     font-family: "Satisfy";
     font-size: 2rem;

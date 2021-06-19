@@ -610,7 +610,7 @@ h1.name {
 body {
     font-family: "Satisfy";
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 4rem;
     
 }   
     

@@ -818,4 +818,9 @@ a, a:visited {
     font-size: 1.6rem;
 }
 
+/* Content Fixes */
+
+.content>.medialist, .favourites, .content>.stats, .content>.user-social {
+  margin-top: 0;
+}
   

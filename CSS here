@@ -119,8 +119,6 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
     transition: 0.3s;
     width: auto !important;
-    background-color: rgb(var(--color-foreground));
-    padding: 10px;
     border-radius: 20px !important;
     margin: auto;
     flex-direction: row;
@@ -182,7 +180,6 @@ a[class="avatar router-link-exact-active router-link-active"]:hover {
 /* animation on avatar */
 
 .banner-content>.avatar {
-  margin-top: 20px;
   animation: shakeY 30s;
   animation-iteration-count: infinite;
   max-height: 269px;

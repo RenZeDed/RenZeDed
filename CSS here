@@ -205,7 +205,8 @@ a[class="avatar router-link-exact-active router-link-active"]:hover {
     background: rgb(var(--color-foreground)) !important;
     width: 65% !important;
     margin: 0 auto !important;
-    border-radius: 30px !important;
+    border-top-left-radius: 30px;
+    border-top-right-radius; 30px;
 }
 
 img.avatar,

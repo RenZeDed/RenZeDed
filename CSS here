@@ -206,7 +206,7 @@ a[class="avatar router-link-exact-active router-link-active"]:hover {
     width: 65% !important;
     margin: 0 auto !important;
     border-top-left-radius: 30px;
-    border-top-right-radius; 30px;
+    border-top-right-radius: 30px;
 }
 
 img.avatar,

@@ -603,7 +603,7 @@ h1.name {
     visibility: hidden;
 }
 
-/* Chnages The stat containers */
+/* Images on stat containers */
 
 .content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(1) {
     background-color: rgb(var(--color-foreground));

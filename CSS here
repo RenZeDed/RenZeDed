@@ -603,6 +603,24 @@ h1.name {
     visibility: hidden;
 }
 
+/* Chnages The stat containers */
+
+.content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(1) {
+    background-color: rgb(var(--color-foreground));
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url(https://i.imgur.com/bi8Fdyk.gif) center/102%;
+    background-repeat: no-repeat;
+    background-size: fit;
+    margin-right: 5px!important;
+}
+
+.content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(2) {
+    background-color: rgb(var(--color-foreground));
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url(https://i.imgur.com/UiX7jjX.gif) center/102%;
+    background-repeat: no-repeat;
+    background-size: fit;
+    margin-left: 5px!important;
+}
+
  /* Changes the font for a couple things */
 
 body {

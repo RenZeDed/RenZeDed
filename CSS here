@@ -124,6 +124,7 @@ body {
     flex-direction: row;
     margin-top: 70px;
     margin-bottom: 10px
+    
 }
 
 /* changes name size */
@@ -204,6 +205,7 @@ a[class="avatar router-link-exact-active router-link-active"]:hover {
     margin: 0 auto !important;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    
 }
 
 img.avatar,
@@ -413,7 +415,7 @@ h1.name {
 
 /* Changes Username Font */
 
-.name[data-v-4f7beb35] {
+.name[data-v-2431f6d8] {
     font-size: 5rem;
     padding: 10px 15px 11px 15px;
     color: #C0C0C0;

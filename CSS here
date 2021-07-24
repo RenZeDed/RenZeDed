@@ -672,7 +672,7 @@ body {
 
 /* Badge next to Big Username */
 
-.name[data-v-4f7beb35]::after {
+ .name[data-v-4f7beb35]::after {
     content: "The Hentai Man";
     position: relative;
     left: 10px;
@@ -692,7 +692,6 @@ body {
     animation-name: rainbow;
     animation-timing-function: ease-in-out;
 }
-
 /* Badge next to People's names */
 
 .text > .header > .name::after, .reply > .header > .name::after {

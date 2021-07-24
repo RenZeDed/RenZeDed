@@ -420,6 +420,12 @@ h1.name {
   
 }
 
+.nav[data-v-2431f6d8] {
+    font-size: 1.8rem;
+    max-width: 1220px;
+    text-align: center;
+}
+
 /* Changes Username Font */
 
 .name[data-v-2431f6d8] {

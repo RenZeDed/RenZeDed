@@ -411,6 +411,11 @@ h1.name {
 .link[data-v-2431f6d8]:hover {
     transform: scale(1.15);
     color: #C0C0C0
+    
+  .header-wrap[data-v-2431f6d8] {
+    font-family: 'Satisfy';
+    font-weight: 600;
+  
 }
 
 /* Changes Username Font */

@@ -433,7 +433,7 @@ h1.name {
     padding: 10px 15px 11px 15px;
     color: #C0C0C0;
     font-family: "Satisfy";
-    display: flex;
+    display: grid;
     align-items: center;
 }
 

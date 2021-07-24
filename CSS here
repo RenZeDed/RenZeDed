@@ -8,11 +8,15 @@
 /* Adds Background Image */
 
 body {
-    background-image: url("https://files.catbox.moe/iptuay.jpg");
+    background-image: url("https://files.catbox.moe/vr81h7.gif");
     background-position: 50% 50%;
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+element.style {
+    background: url(https://files.catbox.moe/vr81h7.gif) center center / 100% fixed;
 }
 
 /* Removes Banner */

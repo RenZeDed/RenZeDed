@@ -15,10 +15,6 @@ body {
     background-attachment: fixed;
 }
 
-element.style {
-    background: url(https://files.catbox.moe/vr81h7.gif) center center / 100% fixed;
-}
-
 /* Removes Banner */
 
 .banner {

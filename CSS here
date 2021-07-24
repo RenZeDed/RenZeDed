@@ -239,7 +239,7 @@ h1.name {
   box-shadow: var(--nutella-bs);
 }
 
-.nav[data-v-4f7beb35] {
+.nav[data-v-2431f6d8] {
   padding-left: 100px;
 }
 
@@ -405,10 +405,10 @@ h1.name {
   
    /* Navbar Buttons Hover */
  
- .link[data-v-4fbac4e1] {
+ .link[data-v-2431f6d8] {
     transition: transform 0.69s ease-in-out;
 }
-.link[data-v-4fbac4e1]:hover {
+.link[data-v-2431f6d8]:hover {
     transform: scale(1.15);
     color: #C0C0C0
 }

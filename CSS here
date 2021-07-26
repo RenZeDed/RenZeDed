@@ -838,15 +838,6 @@ a, a:visited {
   font-size: 1.25rem;
 }
 
-/* Like Button Colour & Animation */
-
-.button.liked svg[data-icon="heart"] path {
-    transform-origin: center;
-    animation: animateHeart 1.5s infinite;
-    color: #ffffff
-}
-
-
 /* Changes Peoples Usernames Font in activities */
 
 .name[data-v-1bf2cf4e] {

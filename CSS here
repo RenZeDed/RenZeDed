@@ -40,7 +40,7 @@ body {
 /* Changes Search button */
 
 .search[data-v-4fbac4e1]:hover svg {
-    background: url(https://files.catbox.moe/y734v8.gif);
+    background: url(https://files.catbox.moe/g9j8t7.gif);
     background-repeat: no-repeat;
     background-size: contain;
     color: #C0C0C0;

@@ -8,7 +8,7 @@
 /* Adds Background Image */
 
 body {
-    background-image: url("https://files.catbox.moe/vr81h7.gif");
+    background-image: url("https://files.catbox.moe/o5lgqv.gif");
     background-position: 50% 50%;
     background-size: 100%;
     background-repeat: no-repeat;

@@ -687,7 +687,7 @@ body {
 
 /* Badge next to Big Username */
 
- .name[data-v-2431f6d8]::after {
+ .name[data-v-1cc2919e]::after {
     content: "The Hentai Man";
     position: relative;
     left: 10px;

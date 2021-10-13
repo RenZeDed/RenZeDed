@@ -208,6 +208,15 @@ a[class="avatar router-link-exact-active router-link-active"]:hover {
     
 }
 
+.nav[data-v-1cc2919e] {
+
+    font-size: 2rem;
+    font-family: 'Satisfy', cursive !important;
+    max-width: 1220px;
+    text-align: center;
+
+}
+
 img.avatar,
 h1.name {
     margin: auto;

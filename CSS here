@@ -130,7 +130,7 @@ body {
 /* changes name size */
 
 .banner-content .name {
-  font-size: 3.75rem;
+  font-size: 5rem;
   font-family: 'Satisfy', cursive !important;
   display: flex;
   align-items: center;

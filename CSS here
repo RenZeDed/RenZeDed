@@ -52,7 +52,7 @@ body {
 #nav {
   background: rgb(0, 0, 0) none repeat scroll 0% 0% !important;
   border-radius: 0 0 30px 30px;
-  left: calc((100% - 80%) / 2);
+  left: calc((100% - 65%) / 2);
   width: 65%;
   box-shadow: var(--nutella-bs);
   transition: background 0.8s ease 0s, top 0.5s ease 0s !important;

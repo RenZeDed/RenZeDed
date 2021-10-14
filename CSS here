@@ -140,7 +140,7 @@ body {
 /* Re-aligns more stuff... Part of shorter navbar*/
 
 .content.container {
-    max-width: 65%;
+    max-width: 75%;
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -201,7 +201,7 @@ a[class="avatar router-link-exact-active router-link-active"]:hover {
 
 .nav-wrap {
     background: rgb(var(--color-foreground)) !important;
-    width: 65% !important;
+    width: 75% !important;
     margin: 0 auto !important;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -242,7 +242,7 @@ h1.name {
 
 .content.container {
   background: rgba(0, 0, 0, 0.5);
-  max-width: 65%;
+  max-width: 75%;
   padding: 30px 30px;
   border-radius: 0 0 15px 15px;
   box-shadow: var(--nutella-bs);
@@ -253,7 +253,7 @@ h1.name {
 }
 
 .header-wrap>.nav-wrap {
-  max-width: 65%;
+  max-width: 75%;
   margin: 0 auto;
   border-radius: 15px 15px 0 0;
   box-shadow: var(--nutella-ns);
@@ -274,7 +274,7 @@ h1.name {
 /* Transparent Container around everything */
 
  .header-wrap > .nav-wrap {
-    max-width: 65%;
+    max-width: 75%;
     margin: 0 auto;
     border-radius: 30px 30px 0 0;
     box-shadow: var(--bays-ns);
@@ -305,7 +305,7 @@ h1.name {
   }
   .content.container {
     background: rgba(var(--color-foreground-grey),0.3);
-    max-width: 65%;
+    max-width: 75%;
     padding: 30px;
     border-radius: 0 0 30px 30px;
     box-shadow: var(--bays-bs);

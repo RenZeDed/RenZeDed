@@ -596,13 +596,11 @@ h1.name {
     width: 19px;
     height: 16px;
     margin-right: 5px;
-    background-color: rgba(var(--color-text-light));
 }
 .list-stats[data-v-815ccddc]:nth-child(2) .stat[data-v-815ccddc]:nth-child(1) .label,
 .list-stats[data-v-815ccddc]:nth-child(1) .stat[data-v-815ccddc]:nth-child(1) .label {
     display: flex;
     align-items: center;
-    color: rgb(var(--color-text-light));
     margin-right: 23px;
 }
 .list-stats[data-v-815ccddc]:nth-child(2) .stat[data-v-815ccddc]:nth-child(1) .label:before {
@@ -614,7 +612,6 @@ h1.name {
     width: 13px;
     height: 16px;
     margin-right: 5px;
-    background-color: rgba(var(--color-text-light));
 }
 
 .milestones[data-v-815ccddc] {
@@ -860,4 +857,3 @@ a, a:visited {
 .content>.medialist, .favourites, .content>.stats, .content>.user-social {
   margin-top: 0;
 }
-  
